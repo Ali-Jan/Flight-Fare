@@ -315,7 +315,7 @@ def main():
             d_New_Delhi
         ]])
         
-        st.success("Your Selected Flight Fare is : {}".format(int(Fare_predict[0])))
+        st.success("Your Selected Flight Fare is : Rs. {}".format(int(Fare_predict[0])))
 
 if __name__ == '__main__':
     main()
